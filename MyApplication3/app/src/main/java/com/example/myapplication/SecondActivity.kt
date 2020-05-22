@@ -33,6 +33,7 @@ class SecondActivity : Activity() {
         second_button.setOnClickListener {
             val editor = pref.edit()
             editor.putString(APP_PREFERENCES_ACTIVE_EMAIL, "0")
+            editor.putString(APP_PREFERENCES_ACTIVE_PASSWORD, "0")
             editor.apply()
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
