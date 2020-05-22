@@ -2,7 +2,7 @@ package com.example.myapplication
 
 class Database {
     private val users = arrayListOf(User("Mihail", "Zubenko", "lapa@gmail.com", "myGrail123"),
-                                    User("Valery", "Albertovich","Babaika@mail.ru", "Nggd453454")
+                                    User("Valery", "Albertovich","babaika@mail.ru", "Nggd453454")
     )
 
     fun checkUser(mail: String?, password: String?): Boolean {
